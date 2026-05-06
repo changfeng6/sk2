@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | Lumina Spirits</title>
+    <meta name="description" content="View details for premium spirits.">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-brand">
+            <img src="assets/images/liquor_logo.png" alt="Lumina Spirits">
+            <span>LUMINA</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="wine.html">Wine</a></li>
+            <li><a href="champagne.html">Champagne</a></li>
+            <li><a href="vodka.html">Vodka</a></li>
+            <li><a href="tequila.html">Tequila</a></li>
+            <li><a href="whiskey.html">Whiskey</a></li>
+            <li><a href="brandy.html">Brandy</a></li>
+            <li><a href="rum.html">Rum</a></li>
+            <li><a href="gin.html">Gin</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <div class="cart-icon">🛒<span class="cart-count">0</span></div>
+        </div>
+    </nav>
+
+    <div class="container product-detail-container">
+        <div class="product-detail-image animate-on-scroll">
+            <img id="detail-image" src="assets/images/liquor_logo.png" alt="Product Image">
+        </div>
+        <div class="product-detail-info animate-on-scroll">
+            <span id="detail-category" class="product-category" style="color:var(--accent-gold); letter-spacing: 2px; text-transform: uppercase;">Category</span>
+            <h1 id="detail-title">Product Name</h1>
+            <div id="detail-price" class="price">$0.00</div>
+            <p>Experience the pinnacle of luxury with this exquisite selection. Distilled with passion and aged to perfection, this bottle represents the highest standards of our collection. Tasting notes include hints of oak, vanilla, and a smooth, lingering finish that leaves a memorable impression on the palate.</p>
+            <div style="display: flex; gap: 1rem; margin-top: 2rem;">
+                <input type="number" value="1" min="1" style="width: 60px; padding: 0.8rem; background: var(--bg-card); color: white; border: 1px solid var(--glass-border); border-radius: 4px;">
+                <button class="btn btn-primary add-to-cart" style="flex-grow: 1;">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="nav-brand">
+                <img src="assets/images/liquor_logo.png" alt="Lumina Spirits">
+                <span>LUMINA</span>
+            </div>
+            <p>&copy; 2026 Lumina Spirits. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
