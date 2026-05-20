@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Visual feedback
             const originalText = btn.textContent;
-            btn.textContent = 'ADDED!';
+            btn.textContent = '已加入！';
             btn.style.background = 'var(--accent-gold)';
             btn.style.color = 'var(--bg-dark)';
             
